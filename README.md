@@ -33,12 +33,12 @@ COPY . .
 CMD [ "npm", "run", "start"]
 ```
 
-1. run the script to build the image with the command:
-
 ```docker
 node_modules
 Dockerfile
 ```
+
+3. run the script to build the image with the command:
 
 ```bash
 docker build -t express-app .
@@ -56,7 +56,7 @@ docker images
 
 ![Untitled](images/Untitled%202.png)
 
-1. after building the image, we can run it in order to build the container with the command:
+4. after building the image, we can run it in order to build the container with the command:
 
 ```bash
 docker run -d --name express-container -p 3333:3333 express-app
