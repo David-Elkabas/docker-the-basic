@@ -1,5 +1,7 @@
 # Docker
 
+this article is mirror from https://david-elkabas-docs.notion.site/Docker-6e49c57df7364fefbd0c74857a2fe977
+
 ![Untitled](images/Untitled%207.png)
 
 great video about dockers:
